@@ -1,0 +1,64 @@
+.capture-container {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.captured-image {
+  border: 1px solid #4a90e2;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 640px;
+  height: auto;
+}
+
+.webcam-container {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  max-width: 640px;
+}
+
+.overlay-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 60%;  
+  height: 50%; 
+  transform: translate(-50%, -50%);
+  border: 2px dashed #ff6347;
+  z-index: 10;
+  pointer-events: none;
+}
+
+.tongue-overlay {
+  position: absolute;
+  top: 50%;  
+  left: 50%;  
+  width: 100%;  
+  height: 100%;  
+  transform: translate(-50%, -50%);  
+  z-index: 11;
+  opacity: 0.9;
+  pointer-events: none;
+}
+
+.error {
+  color: red;
+  margin: 1rem 0;
+}
+
+.buttons button {
+  margin: 0.5rem;
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #4a90e2;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.buttons button:hover {
+  background-color: #357ab8;
+}
