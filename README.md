@@ -1,21 +1,21 @@
-Application Overview
+# Application Overview
 This React-based web application guides users through a simple and interactive flow to capture and download images using their device's camera.
 
-1. Welcome Page 
+1. Welcome Page - 
 The app launches with a brief introduction and a Start button.
 When the user clicks Start, an Agreement Modal pops up asking for consent to proceed.
 
-2. User Agreement
+2. User Agreement - 
 If the user clicks "Agree": The application proceeds to the Camera Page.
 If the user clicks "Disagree": The user stays on the Welcome Page and cannot proceed further.
 
-3. Camera Functionality
+3. Camera Functionality - 
 On the camera page, users are prompted to grant camera access.
 Once access is granted: The camera opens and the user can capture an image of their tongue.
 If the image does not contains tongue and is not correct, an error message will be displayed telling to retake the image.
 After capturing, users see options to: Retake the image, Save the image
 
-5. Save Functionality
+5. Save Functionality - 
 When "Save Image" is clicked: The captured image is downloaded directly to the user's local system.
 
 
