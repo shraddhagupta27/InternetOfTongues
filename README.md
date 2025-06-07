@@ -19,6 +19,7 @@ After capturing, users see options to: Retake the image, Save the image
 When "Save Image" is clicked: The captured image is downloaded directly to the user's local system.
 
 
+Demo of the application - https://docs.google.com/document/d/1KLbJ-fhJXWmxzc4rp1aJysIZu0lwrRqbwJEYJ8BFIuU/edit?tab=t.0
 
 
 
